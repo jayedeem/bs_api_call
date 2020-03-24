@@ -1,4 +1,4 @@
-API = "4d3519876ee59a5fca4d90c2c0533103"
+API = "API"
 URL = "https://api.broadsign.com:10889/rest/"
 HOST_ID = '/host/v17/by_id?'
 HEADERS = {'Authorization': 'Bearer ' + API}
