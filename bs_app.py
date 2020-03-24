@@ -33,6 +33,10 @@ def get_status(userinput):
 
 def display_status(response,userinput):
     print(userinput)
+    '''
+    Need to add logic ..json returns both DISPLAY and HOST it completes the search, if only has DISPLAY then should 
+    print out this does not have a HOST
+    '''
     for values in response['resource_query']:
         #if values['resource_type'] == 'display_unit' or values['resource_type'] == 'host':
         if values['resource_type'] == 'host':
