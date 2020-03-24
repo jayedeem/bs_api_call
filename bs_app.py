@@ -41,7 +41,7 @@ def display_status(response,userinput):
         #if values['resource_type'] == 'display_unit' or values['resource_type'] == 'host':
         if values['resource_type'] == 'host':
             get_id(values['id'])
-        elif values['resource_type'] != 'host':
+        else:
             print(f'{userinput} does not exist')
 
 '''
