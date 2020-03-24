@@ -5,14 +5,14 @@ import time
 import dateutil.parser
 import requests
 
-import config_api
+import config
 
-API = config_api.API
-URL = config_api.URL
-HOST_ID = config_api.HOST_ID
-HEADERS = config_api.HEADERS
-RES_QUERY = config_api.RES_QUERY
-REQ_STATUS = config_api.REQ_STATUS
+API = config.API
+URL = config.URL
+HOST_ID = config.HOST_ID
+HEADERS = config.HEADERS
+RES_QUERY = config.RES_QUERY
+REQ_STATUS = config.REQ_STATUS
 
 print('What is the unit number?')
 number = input()
